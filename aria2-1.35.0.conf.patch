@@ -103,7 +103,7 @@ diff -ruN aria2-master/src/OptionHandlerFactory.cc aria2-master/src/OptionHandle
      OptionHandler* op(new NumberOptionHandler(PREF_MAX_CONCURRENT_DOWNLOADS,
                                                TEXT_MAX_CONCURRENT_DOWNLOADS,
 -                                              "5", 1, -1, 'j'));
-+                                              "16", 1, -1, 'j'));
++                                              "36", 1, -1, 'j'));
      op->addTag(TAG_BASIC);
      op->setChangeGlobalOption(true);
      handlers.push_back(op);
