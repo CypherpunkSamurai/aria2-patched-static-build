@@ -5,6 +5,8 @@ on:
   release:
     types: [published]
   workflow_dispatch:
+  schedule:
+    - cron:  '0 0 * * SAT'
 
 jobs:
   build-aria2-mingw:
